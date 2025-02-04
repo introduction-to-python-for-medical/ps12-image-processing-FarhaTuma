@@ -6,7 +6,7 @@ def load_image(path):
     img_path = Image.open(path)
     img = np.array(img_path)
     return img
-
+load_image('/content/2.jpg')
 
 def edge_detection(image):
      # Convert to grayscale
