@@ -10,7 +10,7 @@ load_image('/content/2.jpg')
 
 def edge_detection(image):
      # Convert to grayscale
-    grayscale_image = np.mean(image_array, axis=2)
+    grayscale_image = np.mean(image, axis=2)
 
     # Define the vertical and horizontal edge detection filters
     kernelY = np.array([[1, 2, 1],
